@@ -8,12 +8,11 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { AuthModule} from './auth/auth.module';
 
 import { PagesModule } from './pages/pages.module';
-
 @NgModule({
   declarations: [
     AppComponent,
 
-    NopagefoundComponent,
+    NopagefoundComponent
     
   ],
   imports: [
