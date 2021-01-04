@@ -11,19 +11,22 @@ import { FormsModule} from '@angular/forms';
 
 import { ComponentsModule } from '../components/components.module'
 import { from } from 'rxjs';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 @NgModule({
   declarations: [
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
 
   ],
   exports: [
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     AppRoutingModule,
